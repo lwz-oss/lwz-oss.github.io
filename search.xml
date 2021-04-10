@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="2021/04/09/18-26-28/"/>
-      <url>2021/04/09/18-26-28/</url>
+      <title>博客第一篇</title>
+      <link href="2021/04/10/11-50-22/"/>
+      <url>2021/04/10/11-50-22/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>#html语义化</p><ol><li>什么是语义化<br>a）每一个html元素都有具体的含义<br>例：<br>a元素：超链接<br>p元素：段落<br>h1元素： 一级标题<br>  b）所有元素与展示效果无关<br>元素显示到页面中的效果，应该由css决定。<br>因为浏览器带有默认的css样式，所以每个元素有一些默认样式<br>例如使用h1一级标题设置css样式 fontsize=‘10px’，实际显示效果字体虽然会变小<br>但并不代表这个标签不叫一级标题<br>c）选择什么元素，取决于内容的含义，而不是显示出的效果</li><li>为什么需要语义化？<br>a）为了所有引擎优化（seo）<br>搜索引擎：百度、Bing、Google<br>每隔一段时间，搜索引擎会从整个互联网中，抓取页面源代码<br>b）为了让浏览器理解网页<br>阅读模式、语音模式</li><li>块级元素、行级元素<br>a）以前： 某些元素在显示时会独占一行（块级元素），而某些元素不会（行级元素）<br>b）到了html5中，已经弃用了这种说法。</li></ol>]]></content>
       
       
       
